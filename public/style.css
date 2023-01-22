@@ -1,0 +1,63 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs button{
+    padding:14.5px;
+    border: none;
+    border-radius: 30px 0px 0 30px;
+    margin-left: -49px;
+    background-color:burlywood;
+}
+.inputs input{
+    width: 75%;
+    height: 50px;
+    font-size: xx-large;
+    padding-left: 70px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    color: cadetblue;
+    background: url('diet.png') no-repeat left;
+    background-color: white;
+    background-size: 50px;
+    background-position: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 2% 10%;
+    border-radius: 30px;
+}
+.info h1{
+    color: cadetblue;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+.per{
+    text-align: center;
+}
+.hidden{
+    width: 100%;
+    display: flex;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+.get_back{
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    background-color: white;
+    color: cadetblue;
+    display: inline;
+}
